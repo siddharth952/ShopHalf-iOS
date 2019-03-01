@@ -1,0 +1,6 @@
+framework module Pods_ShopHalf {
+  umbrella header "Pods-ShopHalf-umbrella.h"
+
+  export *
+  module * { export * }
+}

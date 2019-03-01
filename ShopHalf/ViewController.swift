@@ -8,13 +8,27 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+      /*  let ref = Database.database().reference()
+        ref.child("someid/name").setValue("Mike") //Location to insert data to
+        
+        ref.childByAutoId().setValue(["name":"Tom","role":"Admin","Age":"35"]) //For Auto generated key
+        
+        ref.child("someid").observeSingleEvent(of: .value)
+        { (snapshot) in
+            
+            
+        
+        
+       }
+
+  */
+
+ 
     }
-
-
 }
-
