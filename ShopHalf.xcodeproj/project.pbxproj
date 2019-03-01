@@ -13,6 +13,7 @@
 		E162510322170E7C002C7A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E162510122170E7C002C7A71 /* Main.storyboard */; };
 		E162510522170E7D002C7A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E162510422170E7D002C7A71 /* Assets.xcassets */; };
 		E162510822170E7D002C7A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E162510622170E7D002C7A71 /* LaunchScreen.storyboard */; };
+		E18B823D222923B400278BAE /* Appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E18B823C222923B400278BAE /* Appicon.png */; };
 		E1F8CFF022190FA200E35DAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1F8CFEF22190FA200E35DAA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		E162510422170E7D002C7A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E162510722170E7D002C7A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E162510922170E7D002C7A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18B823C222923B400278BAE /* Appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon.png; sourceTree = "<group>"; };
 		E1F8CFEF22190FA200E35DAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				E1F8CFEF22190FA200E35DAA /* GoogleService-Info.plist */,
 				E162510122170E7C002C7A71 /* Main.storyboard */,
 				E162510422170E7D002C7A71 /* Assets.xcassets */,
+				E18B823C222923B400278BAE /* Appicon.png */,
 				E162510622170E7D002C7A71 /* LaunchScreen.storyboard */,
 				E162510922170E7D002C7A71 /* Info.plist */,
 			);
@@ -151,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18B823D222923B400278BAE /* Appicon.png in Resources */,
 				E162510822170E7D002C7A71 /* LaunchScreen.storyboard in Resources */,
 				E1F8CFF022190FA200E35DAA /* GoogleService-Info.plist in Resources */,
 				E162510522170E7D002C7A71 /* Assets.xcassets in Resources */,
