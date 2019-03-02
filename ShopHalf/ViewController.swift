@@ -10,23 +10,22 @@ import UIKit
 import FirebaseUI
 
 
-let providers: [FUIAuthProvider] = [
-    FUIGoogleAuth(),
-    FUIFacebookAuth(),
-    FUITwitterAuth(),
-]
-
-
-
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
+        
        }
     
-
-
+    @IBAction func registerButtonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "goToRegister", sender: self)
+        
+    }
+    
+    @IBAction func signinButtonTapped(_ sender: Any) {
+        
+    }
+    
 }
