@@ -11,5 +11,6 @@ target 'ShopHalf' do
 
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'FirebaseUI'
 
 end

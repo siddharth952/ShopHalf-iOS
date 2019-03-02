@@ -7,6 +7,16 @@
 //
 
 import UIKit
+import FirebaseUI
+
+
+let providers: [FUIAuthProvider] = [
+    FUIGoogleAuth(),
+    FUIFacebookAuth(),
+    FUITwitterAuth(),
+]
+
+
 
 
 class ViewController: UIViewController {
@@ -14,21 +24,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      /*  let ref = Database.database().reference()
-        ref.child("someid/name").setValue("Mike") //Location to insert data to
-        
-        ref.childByAutoId().setValue(["name":"Tom","role":"Admin","Age":"35"]) //For Auto generated key
-        
-        ref.child("someid").observeSingleEvent(of: .value)
-        { (snapshot) in
-            
-            
-        
-        
+
        }
+    
 
-  */
 
- 
-    }
 }
