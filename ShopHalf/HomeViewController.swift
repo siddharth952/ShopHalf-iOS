@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeViewController: UIViewController {
 
@@ -18,6 +19,10 @@ class HomeViewController: UIViewController {
     
     
 
+    @IBAction func logoutPressed(_ sender: Any) {
+        
+        
+    }
     
 
    

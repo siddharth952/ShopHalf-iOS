@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A39422AC2064DD2E6062063 /* Pods_ShopHalf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9268CE3176E5430B35AFFA7 /* Pods_ShopHalf.framework */; };
+		E10AAF56222BADD400967E38 /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E10AAF55222BADD400967E38 /* Video1.mp4 */; };
 		E16250FE22170E7C002C7A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16250FD22170E7C002C7A71 /* AppDelegate.swift */; };
 		E162510022170E7C002C7A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16250FF22170E7C002C7A71 /* ViewController.swift */; };
 		E162510322170E7C002C7A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E162510122170E7C002C7A71 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		647B80E4896F5C848C7F7627 /* Pods-ShopHalf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopHalf.debug.xcconfig"; path = "Target Support Files/Pods-ShopHalf/Pods-ShopHalf.debug.xcconfig"; sourceTree = "<group>"; };
 		B9268CE3176E5430B35AFFA7 /* Pods_ShopHalf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopHalf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68938330829657A5C838C81 /* Pods-ShopHalf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopHalf.release.xcconfig"; path = "Target Support Files/Pods-ShopHalf/Pods-ShopHalf.release.xcconfig"; sourceTree = "<group>"; };
+		E10AAF55222BADD400967E38 /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video1.mp4; path = ../../../../../Downloads/Video1.mp4; sourceTree = "<group>"; };
 		E16250FA22170E7C002C7A71 /* ShopHalf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopHalf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16250FD22170E7C002C7A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16250FF22170E7C002C7A71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,9 +69,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E10AAF54222BAD0600967E38 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
 		E16250F122170E7B002C7A71 = {
 			isa = PBXGroup;
 			children = (
+				E10AAF54222BAD0600967E38 /* Resouces */,
 				E16250FC22170E7C002C7A71 /* ShopHalf */,
 				E16250FB22170E7C002C7A71 /* Products */,
 				48BF000E5930BFE1AADC62E2 /* Pods */,
@@ -88,6 +98,7 @@
 		E16250FC22170E7C002C7A71 /* ShopHalf */ = {
 			isa = PBXGroup;
 			children = (
+				E10AAF55222BADD400967E38 /* Video1.mp4 */,
 				E16250FD22170E7C002C7A71 /* AppDelegate.swift */,
 				E16250FF22170E7C002C7A71 /* ViewController.swift */,
 				E1F8CFEF22190FA200E35DAA /* GoogleService-Info.plist */,
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18B823D222923B400278BAE /* Appicon.png in Resources */,
+				E10AAF56222BADD400967E38 /* Video1.mp4 in Resources */,
 				E162510822170E7D002C7A71 /* LaunchScreen.storyboard in Resources */,
 				E1F8CFF022190FA200E35DAA /* GoogleService-Info.plist in Resources */,
 				E162510522170E7D002C7A71 /* Assets.xcassets in Resources */,
