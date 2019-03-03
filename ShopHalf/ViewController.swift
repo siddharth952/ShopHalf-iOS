@@ -9,7 +9,7 @@
 import UIKit
 import FirebaseUI
 import AVFoundation
-import AVKit
+
 
 class ViewController: UIViewController {
 
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     
     @IBAction func signinButtonTapped(_ sender: Any) {
         //Signin Tapped
+        performSegue(withIdentifier: "goToSignIn", sender: self)
     }
     
     

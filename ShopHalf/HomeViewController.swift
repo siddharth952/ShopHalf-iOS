@@ -20,6 +20,15 @@ class HomeViewController: UIViewController {
     
 
     @IBAction func logoutPressed(_ sender: Any) {
+        do{
+        try Auth.auth().signOut()
+            
+            navigationController?.popToRootViewController(animated: true)
+        }
+        catch{
+            print("Error Signing Out!")
+        }
+        
         
         
     }
