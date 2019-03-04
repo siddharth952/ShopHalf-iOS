@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseUI
 import AVFoundation
+import AVKit
 
 
 class ViewController: UIViewController {
@@ -51,6 +52,10 @@ class ViewController: UIViewController {
         newLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         
         player.play()
+        
+        
+        
+        
         
         
     }
