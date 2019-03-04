@@ -1,4 +1,7 @@
 # ShopHalf
 
 
-![](/Gifs/gif1.gif)
+![Landing Page](https://github.com/siddharth952/ShopHalf/blob/master/Gifs/Gif1.gif)
+![Sign In](https://github.com/siddharth952/ShopHalf/blob/master/Gifs/Gif2.gif)
+![](https://github.com/siddharth952/ShopHalf/blob/master/Gifs/Gif3.gif)
+![Logout](https://github.com/siddharth952/ShopHalf/blob/master/Gifs/Gif4.gif)
