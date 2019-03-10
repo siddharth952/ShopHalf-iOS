@@ -1,4 +1,4 @@
-# ShopHalf
+# ShopHalf- iOS
 
 # Landing Page
 ![Landing Page](https://github.com/siddharth952/ShopHalf/blob/master/Gifs/Gif1.gif)
